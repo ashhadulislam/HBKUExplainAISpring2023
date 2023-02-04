@@ -12,8 +12,8 @@
 
 | Task            | Bilal      | Khatereh  | Momin      |
 | --------------- | ---------- | --------- | ---------- |
-| Basic Functions |            | 03/02/2023|            |
-| One Iteration   |            |           |            |
+| Basic Functions | 04/02/2023 | 03/02/2023|            |
+| One Iteration   | 04/02/2023 |           |            |
 
 
 
