@@ -1,10 +1,10 @@
 # HBKUExplainAISpring2023
 
 
-| Task            | Adnan | Nisreen | Raghad     |
-| --------------- | ----- | ------- | ---------- |
-| Basic Functions |       |         | 04/02/2023 |
-| One Iteration   |       |         |            |
+| Task            | Adnan      | Nisreen | Raghad     |
+| --------------- | ---------- | ------- | ---------- |
+| Basic Functions | 09/02/2023 |         | 04/02/2023 |
+| One Iteration   | 09/02/2023 |         | 11/02/2023 |
 
 
 
