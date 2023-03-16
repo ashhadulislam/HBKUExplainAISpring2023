@@ -1,17 +1,10 @@
 ### put all necessary imports here
-
-
-from sklearn import datasets
-from sklearn.model_selection import train_test_split
 import numpy as np
-from sklearn.metrics import accuracy_score
-
-from scipy.stats import entropy
-
 
 
 def calculate_probabilities(list_labels, uniq_labels):
     '''
+    Author: Sara Nassar 
     this function calculates the probabilities of each label in the list of labels
     it is calculated by number of labels in class A/all labels
     number of labels in class B/all labels
@@ -34,12 +27,13 @@ def calculate_probabilities(list_labels, uniq_labels):
         # Storing the calculated probability in the dictionary
         probabilities[label] = probability
         
-    return probabilities    
-    
+    return probabilities   
+
 
 
 def calc_entropy_from_probabilities(list_probas):
     '''
+    Author: Sara Nassar 
     list_probas is the list of probabiities
     the formula for entropy is
     sum(-proba*log(proba))
@@ -58,6 +52,7 @@ def calc_entropy_from_probabilities(list_probas):
 
 def information_gain(old_entropy,new_entropies,count_items):
     '''
+    Author: Sara Nassar 
     from the list of new entropies, calculate the overall new entropy
     
     formula is something like:
@@ -84,7 +79,6 @@ def information_gain(old_entropy,new_entropies,count_items):
     return information_gain
 
 
-
 def initialize_weights(number_features):
     '''
     the first set of weights corresponding to the features
@@ -93,6 +87,8 @@ def initialize_weights(number_features):
     
     weights=np.array([np.random.uniform() for i in range(number_features)])
     return weights
+    
+    
 def get_entropy_from_groups(new_entropies,count_items):
     overall_new_entropy = 0
     
@@ -138,12 +134,9 @@ def get_entropy(threshold,res,y_test):
     overall_new_entropy=get_entropy_from_groups(new_entropies,count_items)
     return overall_new_entropy
 
-
-
-########################################################
-########################PSO part########################
-########################################################
-
+################################################
+############## PSO related functions ###########
+################################################
 def objective_fn(param1,param2,X,y):
     '''
     param1 and param2 are the parameters that we want to optimize
@@ -172,5 +165,5 @@ def objective_fn_vector(params1,params2,X,y):
         results.append(res)
     
     return np.array(results)
-    
 
+    
