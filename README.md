@@ -4,6 +4,8 @@ Open Issues:
 
 1. Task 6b, same thrshold at all levels of recursion tree. Need to check the PSO algorithm to see if the optimization technique is working as expected.
 
+Link: https://github.com/ashhadulislam/HBKUExplainAISpring2023/issues/1
+
 Contributors: ...
 
 Date Of Contrbution: ...
