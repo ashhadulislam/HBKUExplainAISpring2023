@@ -30,3 +30,11 @@
 | PSO basics      | 20/02/2023  | 19/02/2023 | 19/02/2023 |
 | PSO on IRIS     | 26/02/2023  | 26/02/2023 | 26/02/2023 |
 | Modular PSO     | 05/03/2023  | 07/03/2023 |            |
+
+
+
+Open Issues:
+
+1. Task 6b, same thrshold at all levels of recursion tree. Need to check the PSO algorithm to see if the optimization technique is working as expected.
+
+Contributors: ...
