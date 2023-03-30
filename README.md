@@ -10,7 +10,7 @@ Contributors: ...
 
 Date Of Contrbution: ...
 
-2. After PSO, the gbest value does not change
+2. After PSO, the pbest values does not change
 
 Link: https://github.com/ashhadulislam/HBKUExplainAISpring2023/issues/2
 
